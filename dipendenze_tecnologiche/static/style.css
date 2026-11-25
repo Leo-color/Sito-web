@@ -1,0 +1,74 @@
+
+
+p {
+    font-family: Arial Narrow;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #5988FF;
+    border: 5px solid rgba(148, 34, 34, 0.886); 
+    padding: 15px; 
+    border-radius: 10px; 
+    background-color:rgba(148, 34, 34, 0.886);
+    animation: {
+  animation: destra 2s forwards;
+}
+}
+
+
+
+
+
+h2 {
+    font-family: Algerian;
+    font-size: 30px;
+    color: #FD98FB;
+    background-color: #5988FF;
+    margin-top: -110px;
+}
+
+
+
+ul {
+    font-family: Arial,  sans-serif; 
+    font-size: 20px; 
+    background-color: #5988FF; 
+    color: #FFFFFF; 
+}
+h1 {
+    color: #D6FF6B; 
+    font-size: 50px; 
+    font-family: Berlin Sans FB Demi; 
+    background-color: #5988FF;
+
+    animation: color-change 2s infinite;
+}
+html {
+    background-color: #5988FF;
+}
+
+div {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    animation
+}
+
+@keyframes color-change {
+  0%  { color: #D6FF6B;}
+  50% { color: rgba(0, 255, 136, 0.795);}
+  100% {color: rgb(38, 104, 38); }
+}
+
+
+@keyframes color-change {
+  0%  { color: #ffffff;}
+  50% { color: rgba(0, 255, 136, 0.795);}
+  100% {color: rgb(38, 104, 38); }
+
+
